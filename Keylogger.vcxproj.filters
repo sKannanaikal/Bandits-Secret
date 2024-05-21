@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{2479dd5a-5bf3-4f58-9b78-85353fbec6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\lib">
+      <UniqueIdentifier>{f00b5d34-b15d-4947-8803-338ef01b94c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\src</Filter>
     </ClCompile>
+    <ClCompile Include="keylog.cpp">
+      <Filter>Source Files\src\lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keylog.h">
+      <Filter>Source Files\src\lib</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
